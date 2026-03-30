@@ -1,11 +1,12 @@
 import "./App.css";
+import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
   return (
     <>
-      <h1>Welcome to my Digital React world</h1>
-
-      <header></header>
+      <header>
+        <Navbar />
+      </header>
       <main></main>
       <footer></footer>
     </>
