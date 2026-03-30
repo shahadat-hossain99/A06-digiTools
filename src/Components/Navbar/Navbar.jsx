@@ -1,10 +1,11 @@
 import React from "react";
+import { MdLogin } from "react-icons/md";
 
 const Navbar = () => {
   return (
     <div className="shadow-sm sticky top-0 z-10 bg-white">
       <div className="navbar container mx-auto">
-        <div className="navbar-start">
+        <div className="navbar-start ">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -54,7 +55,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-2xl font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
+          <a className=" text-2xl font-bold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
             DigiTools
           </a>
         </div>
@@ -107,7 +108,7 @@ const Navbar = () => {
 
             <span className="badge badge-sm indicator-item bg-red-500 rounded-full font-bold text-xs text-white"></span>
           </div>
-          <a className="btn btn-ghost rounded-full">Login</a>
+          <a className="btn btn-ghost rounded-full p-2 opacity-80">Login</a>
           <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full">
             Get Started
           </a>
