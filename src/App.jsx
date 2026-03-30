@@ -1,6 +1,7 @@
 import "./App.css";
 import Banner from "./Components/Banner/Banner";
 import Stats from "./Components/Banner/Stats";
+import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
@@ -13,7 +14,9 @@ function App() {
       <main>
         <Stats />
       </main>
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
