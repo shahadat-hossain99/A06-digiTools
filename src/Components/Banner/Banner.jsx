@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div>
       <div className="hero min-h-192">
-        <div className="hero-content flex-col lg:flex-row-reverse px-1">
+        <div className="hero-content flex-col gap-14 lg:flex-row-reverse px-1">
           <img src={bannerImg} />
           <div className="flex flex-col items-center justify-center text-center md:text-left md:items-start">
             <div className="flex ">
@@ -20,8 +20,8 @@ const Banner = () => {
               </p>
             </div>
             <div className="">
-              <h1 className="text-6xl font-extrabold py-2 bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent ">
-                Supercharge Your Digital Workflow{" "}
+              <h1 className="text-4xl md:leading-20 md:text-6xl font-extrabold py-2 bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent ">
+                Supercharge Your <br /> Digital Workflow{" "}
               </h1>
               <p className="py-6 text-lg">
                 Access premium AI tools, design assets, templates, and
