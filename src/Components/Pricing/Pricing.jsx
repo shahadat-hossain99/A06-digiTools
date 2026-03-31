@@ -2,8 +2,8 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <div className="">
-      <h2 className="text-4xl font-extrabold text-center">
+    <div className="mt-9">
+      <h2 className="text-3xl md:text-4xl font-extrabold text-center">
         Simple, Transparent Pricing
       </h2>
       <p className="text-center text-gray-400 py-8">

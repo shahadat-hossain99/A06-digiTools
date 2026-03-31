@@ -8,7 +8,10 @@ const Footer = () => {
       <div className="container mx-auto ">
         <footer className="footer  pt-28 sm:footer-horizontal text-gray-300 p-8 md:py-20">
           <aside>
-            <h2 className="text-4xl mb-4 font-bold text-gray-200">DigiTools</h2>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl mb-4 font-bold text-gray-200 flex justify-center items-center gap-2">
+              <img className="h-7 w-auto" src="/favicon.png" alt="" />
+              DigiTools
+            </h2>
             <p className="max-w-96 opacity-80 leading-6">
               Premium digital tools for creators,
               <br /> professionals, and businesses. Work smarter <br /> with our

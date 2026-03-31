@@ -12,9 +12,9 @@ const Premium = ({ toolsDataPromise, cart, setCart }) => {
   const [selectedType, setSelectedType] = useState("products");
 
   return (
-    <div className="container mx-auto md:my-12 pt-6">
+    <div className="container mx-auto md:my-12 md:pt-6 pt-3 px-4">
       <div>
-        <h2 className="text-2xl md:text-5xl font-extrabold text-center">
+        <h2 className="text-3xl md:text-5xl font-extrabold text-center">
           Premium Digital Tools
         </h2>
         <p className="text-center text-gray-400 py-8">

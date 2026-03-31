@@ -6,7 +6,10 @@ const Workflow = () => {
       <div className="hero  bg-linear-to-r from-[#4F39F6] to-[#9514FA] min-h-112.5">
         <div className="hero-content text-center text-white">
           <div className="">
-            <h1 className="text-5xl font-bold">
+            <h1
+              className="
+           text-4xl md:text-5xl font-bold"
+            >
               Ready to Transform Your Workflow?
             </h1>
             <p className="py-6 opacity-90">

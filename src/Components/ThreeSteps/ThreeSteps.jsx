@@ -5,8 +5,8 @@ import RocketImg from "../../assets/rocket.png";
 
 const ThreeSteps = () => {
   return (
-    <div className="container mx-auto p-2 md:py-24">
-      <h2 className="text-5xl font-extrabold text-center">
+    <div className="container mx-auto p-4 md:py-24">
+      <h2 className="text-3xl md:text-5xl font-extrabold text-center">
         Get Started in 3 Steps
       </h2>
       <p className="text-center text-gray-400 py-8">
@@ -18,6 +18,7 @@ const ThreeSteps = () => {
           <div className="badge bg-linear-to-r from-[#4F39F6] to-[#9514FA] badge-md rounded-full absolute top-2 right-2 py-4.5 text-white">
             01
           </div>
+
           <div className="flex justify-center items-center mb-4">
             <div className="bg-[#E1E7FF] p-5 rounded-full">
               <img src={UserImg} alt="" />
