@@ -53,7 +53,7 @@
 ## 🙌 Author
 
 **Md. Shahadat Hossain**
-_Aspiring MERN Stack Developer_
+- Aspiring MERN Stack Developer
 
 ---
 
