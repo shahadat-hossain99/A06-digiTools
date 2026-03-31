@@ -1,16 +1,60 @@
-# React + Vite
+# 🚀 DigiTools
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Description
 
-Currently, two official plugins are available:
+**DigiTools** is a modern web application that provides users with a collection of premium digital tools and services in one place. The platform is designed with a clean UI and responsive layout, making it easy for users to explore different tools, compare pricing plans, and choose what fits their needs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ⚛️ React.js
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- 🌼 DaisyUI
+- 📦 JavaScript (ES6+)
+- 🌐 JSON (for data handling)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Key Features
+
+### 1️⃣ Dynamic Pricing Cards
+
+- Displays multiple plans dynamically from JSON data
+- Each card includes price, features, and tags (e.g., Popular, New)
+
+### 2️⃣ Responsive Design
+
+- Fully responsive layout
+- Works smoothly on mobile, tablet, and desktop devices
+
+### 3️⃣ Interactive UI & Clean UX
+
+- Hover effects and smooth transitions
+- User-friendly layout for better experience
+
+---
+
+## 🌟 Future Improvements
+
+- Add user authentication
+- Integrate payment system
+- Add filtering & search functionality
+
+---
+
+## 🔗 Live Demo
+
+👉 https://digitaltools-for-all.netlify.app/
+
+---
+
+## 🙌 Author
+
+**Md. Shahadat Hossain**
+_Aspiring MERN Stack Developer_
+
+---
+
+💡 _This project is part of my journey to mastering React and building real-world applications._
