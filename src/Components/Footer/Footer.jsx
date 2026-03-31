@@ -1,6 +1,7 @@
 import React from "react";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaSquareFacebook, FaXTwitter } from "react-icons/fa6";
+import { GoZap } from "react-icons/go";
 
 const Footer = () => {
   return (
@@ -64,6 +65,15 @@ const Footer = () => {
               <li className="opacity-50"> Terms of Service </li>
               <li className="opacity-50"> Cookies</li>
             </ul>
+          </div>
+          {/* Author Name section */}
+          <div className="hidden text-center pt-9">
+            <p>
+              Powered By{"  "}
+              <span className="text-lg bg-linear-to-r from-blue-600 to-purple-500 bg-clip-text text-transparent">
+                Shahadat
+              </span>{" "}
+            </p>
           </div>
         </footer>
       </div>
