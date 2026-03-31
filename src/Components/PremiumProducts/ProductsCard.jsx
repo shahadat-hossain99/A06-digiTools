@@ -1,7 +1,17 @@
 import React from "react";
+import { useState } from "react";
 import { FcCheckmark } from "react-icons/fc";
+import { toast } from "react-toastify";
 
-const ProductsCard = ({ tool }) => {
+const ProductsCard = ({ tool, cart, setCart }) => {
+  const [isAddedToCart, setIsAddedToCart] = useState(false);
+
+  const handleAddToCart = () => {
+    setIsAddedToCart(true);
+    toast.success("Added To Cart");
+    setCart([...cart, tool]);
+    console.log(tool);
+  };
   return (
     <div className="border border-gray-200 rounded-2xl p-4 relative  shadow transform transition duration-300 hover:scale-105">
       {tool.tagType && (
@@ -33,8 +43,12 @@ const ProductsCard = ({ tool }) => {
           ))}
         </ul>
       </div>
-      <button className="btn text-white font-bold rounded-3xl btn-block bg-linear-to-r from-[#4F39F6] to-[#9514FA] ">
-        Buy Now
+      <button
+        disabled={isAddedToCart}
+        onClick={() => handleAddToCart()}
+        className={`btn ${isAddedToCart ? "bg-green-400" : "bg-linear-to-r from-[#4F39F6] to-[#9514FA]"} text-white font-bold rounded-3xl btn-block  `}
+      >
+        {isAddedToCart === true ? "Added To Cart" : "Buy Now"}
       </button>
     </div>
   );

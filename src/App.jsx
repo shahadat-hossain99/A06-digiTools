@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 import "./App.css";
 import Banner from "./Components/Banner/Banner";
 import Stats from "./Components/Banner/Stats";
@@ -8,6 +8,7 @@ import PremiumSection from "./Components/PremiumSection/PremiumSection";
 import Pricing from "./Components/Pricing/Pricing";
 import ThreeSteps from "./Components/ThreeSteps/ThreeSteps";
 import Workflow from "./Components/Workflow/Workflow";
+import { ToastContainer } from "react-toastify";
 
 const fetchToolsData = async () => {
   const res = await fetch("/toolData.json");
@@ -16,11 +17,12 @@ const fetchToolsData = async () => {
 
 function App() {
   const toolsDataPromise = fetchToolsData();
+  const [cart, setCart] = useState([]);
 
   return (
     <>
       <header>
-        <Navbar />
+        <Navbar cart={cart} />
         <Banner />
       </header>
 
@@ -33,7 +35,11 @@ function App() {
             </div>
           }
         >
-          <PremiumSection toolsDataPromise={toolsDataPromise} />
+          <PremiumSection
+            cart={cart}
+            setCart={setCart}
+            toolsDataPromise={toolsDataPromise}
+          />
         </Suspense>
         <ThreeSteps />
         <Pricing />
@@ -43,6 +49,8 @@ function App() {
       <footer>
         <Footer />
       </footer>
+
+      <ToastContainer />
     </>
   );
 }

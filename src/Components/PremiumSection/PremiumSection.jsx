@@ -3,7 +3,7 @@ import { use } from "react";
 import PremiumProducts from "../PremiumProducts/PremiumProducts";
 import CartProducts from "../CartProducts/CartProducts";
 
-const Premium = ({ toolsDataPromise }) => {
+const Premium = ({ toolsDataPromise, cart, setCart }) => {
   //   console.log(toolsDataPromise);
 
   const toolsData = use(toolsDataPromise);
@@ -37,15 +37,15 @@ const Premium = ({ toolsDataPromise }) => {
             }}
             className={` ${selectedType === "cart" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white shadow-[0px_3px_8px_0px_rgba(97,7,236,0.30)]" : "text-[#627382]"} font-bold px-6 py-2.5 border-none rounded-full transition-all  duration-700 ease-in-out`}
           >
-            Cart (0)
+            Cart ({cart.length})
           </button>
         </div>
       </div>
 
       {selectedType === "products" ? (
-        <PremiumProducts toolsData={toolsData} />
+        <PremiumProducts setCart={setCart} cart={cart} toolsData={toolsData} />
       ) : (
-        <CartProducts />
+        <CartProducts setCart={setCart} cart={cart} />
       )}
     </div>
   );
