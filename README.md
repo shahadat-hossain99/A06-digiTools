@@ -13,6 +13,7 @@
 - 🎨 Tailwind CSS
 - 🌼 DaisyUI
 - 📦 JavaScript (ES6+)
+- 🔔 React-Toastify (NPM Package)
 - 🌐 JSON (for data handling)
 
 ---
@@ -52,8 +53,8 @@
 
 ## 🙌 Author
 
-**Md. Shahadat Hossain**
-- Aspiring MERN Stack Developer
+Hi, I'm **Md Shahadat Hossain**  
+🚀 Aspiring MERN Stack Developer passionate about building modern web applications.
 
 ---
 
