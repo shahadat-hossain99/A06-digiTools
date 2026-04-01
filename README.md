@@ -1,5 +1,7 @@
 # 🚀 DigiTools
 
+---
+
 ## 📌 Project Description
 
 **DigiTools** is a modern web application that provides users with a collection of premium digital tools and services in one place. The platform is designed with a clean UI and responsive layout, making it easy for users to explore different tools, compare pricing plans, and choose what fits their needs.
@@ -12,8 +14,8 @@
 - ⚡ Vite
 - 🎨 Tailwind CSS
 - 🌼 DaisyUI
-- 📦 JavaScript (ES6+)
 - 🔔 React-Toastify (NPM Package)
+- 📦 JavaScript (ES6+)
 - 🌐 JSON (for data handling)
 
 ---
@@ -47,7 +49,7 @@
 
 ## 🔗 Live Demo
 
-👉 https://digitaltools-for-all.netlify.app/
+👉 https://digitools-hub.netlify.app/
 
 ---
 
